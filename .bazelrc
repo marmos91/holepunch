@@ -1,0 +1,11 @@
+###############################
+# Filesystem interactions     #
+###############################
+
+build --symlink_prefix=dist/
+
+###############################
+# C++ options                 #
+###############################
+
+build --repo_env='BAZEL_CXXOPTS=-std=c++17'
